@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9e32680bab.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2 id="appTitle">Weather App</h2>
+      <div class="container">
+        <div class="searchContainer">
+          <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter city name"
+            autocomplete="off"
+          />
+          <button id="searchBtn" type="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <div class="autoSuggest">
+            <ul id="suggestionList" class="suggestion-list">
+              <li class="suggestion">rrr</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="weatherContainer">
+          <i class="fa-solid fa-location-dot"></i>
+          <h2 id="cityName">Your City</h2>
+          <div id="weatherIcon">
+            <img
+              src=" https://cdn.weatherapi.com/weather/64x64/day/116.png"
+              alt="weatherIcon"
+            />
+          </div>
+          <div class="weatherData">
+            <p id="description">Description</p>
+            <p id="temperature">temp°</p>
+            <p id="humidity">Humidity %</p>
+            <p id="windSpeed">Wind Speed: km/h</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
