@@ -32,9 +32,6 @@ body {
     margin: 15% auto;
     padding: 1.5rem;
   }
-  .searchContainer {
-    max-width: fit-content;
-  }
 }
 
 .wrapper {
