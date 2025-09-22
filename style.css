@@ -33,7 +33,10 @@ body {
     padding: 1.5rem;
   }
   .searchContainer {
-    max-width: 95%;
+    overflow: hidden;
+  }
+  #cityInput {
+    max-width: 80%;
   }
 }
 
@@ -59,7 +62,6 @@ body {
 .searchContainer {
   display: flex;
   margin-top: 1rem;
-  overflow: hidden;
 }
 #cityInput,
 #searchBtn {
