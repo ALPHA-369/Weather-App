@@ -30,13 +30,19 @@ body {
     height: 540px;
     max-width: 85%;
     margin: 15% auto;
-    padding: 1.5rem;
   }
-  .searchContainer {
-    overflow: hidden;
+  .autoSuggest {
+    width: 100%;
   }
+}
+
+@media (max-width: 280px) {
+  .wrapper {
+    width: 200px;
+  }
+
   #cityInput {
-    max-width: 70%;
+    width: 150px;
   }
 }
 
@@ -64,6 +70,7 @@ body {
   margin-top: 1rem;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
 #cityInput,
 #searchBtn {
