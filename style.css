@@ -36,9 +36,9 @@ body {
   }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 420px) {
   .wrapper {
-    width: 200px;
+    width: 300px;
   }
 
   #cityInput {
