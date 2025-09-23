@@ -36,7 +36,7 @@ body {
     overflow: hidden;
   }
   #cityInput {
-    max-width: 80%;
+    max-width: 70%;
   }
 }
 
@@ -62,6 +62,8 @@ body {
 .searchContainer {
   display: flex;
   margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 #cityInput,
 #searchBtn {
