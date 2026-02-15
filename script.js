@@ -1,7 +1,7 @@
 let searchBtn = document.getElementById("searchBtn");
 
 const BaseURL = " https://api.weatherapi.com/v1";
-const apiKey = "de45affe151a41339ff154103251809";
+const apiKey = process.env.API_KEY;
 
 const options = {
   method: "GET",
@@ -84,7 +84,7 @@ let displayWeather = async (location) => {
     windSpeed.innerText = `Wind Speed: ${wind} kph`;
   } catch (error) {
     alert(
-      "Could not retrieve weather data. Please check the city name and try again."
+      "Could not retrieve weather data. Please check the city name and try again.",
     );
   }
 };
