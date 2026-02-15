@@ -1,7 +1,7 @@
-let searchBtn = document.getElementById("searchBtn");
+﻿let searchBtn = document.getElementById("searchBtn");
 
 const BaseURL = " https://api.weatherapi.com/v1";
-const apiKey = process.env.API_KEY;
+const apiKey = "de45affe151a41339ff154103251809";
 
 const options = {
   method: "GET",
